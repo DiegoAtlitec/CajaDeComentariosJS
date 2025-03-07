@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <section id="contact" class="contact">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Nombre" required>
+                <input type="email" id="email" placeholder="Correo Electrónico" required>
+                <textarea id="message" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <div class="comments-section">
+            <div class="container">
+                <h1>Caja de Comentarios</h1>
+                <form id="commentForm">
+                    <textarea id="commentInput" placeholder="Escribe tu comentario..." required></textarea>
+                    <button type="submit">Agregar Comentarios</button>
+                </form>
+                <div id="commentsContainer"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="PF.js"></script>
+</body>
+
+</html>
